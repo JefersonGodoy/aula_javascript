@@ -35,3 +35,31 @@ console.log(fruta.nome);
 var frutas = [{nome: 'maça', cor: 'vermelha'}, {nome: 'uva', cor: 'roxa'}]
 console.log(frutas);
 
+
+// --- CONDIÇÕES ---
+
+/*
+var idade = prompt('Qual sua idade? ');
+
+if(idade >= 18) {
+    alert('Maior de idade!!!!');
+} else {
+    alert('Menor de idade!!!!');
+};
+*/
+
+/*
+var count = 0;
+
+while(count <= 5 ) {
+    console.log(count);
+    alert(count)
+    count ++;
+}
+*/
+
+var count;
+
+for(count = 1; count <=5; count ++) {
+    alert(count);
+}
